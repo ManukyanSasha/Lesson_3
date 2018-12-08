@@ -66,7 +66,7 @@
 // }
 // main();
 
-var a = require("./fstests");
+var b = require("./fstests");
 var fs = require('fs');
 
-fs.writeFileSync("obj.json", a);
+fs.writeFileSync("obj.json", b);
